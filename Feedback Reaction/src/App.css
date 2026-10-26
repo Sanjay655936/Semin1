@@ -1,0 +1,58 @@
+.app-container {
+  text-align: center;
+  margin-top: 50px;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  color: #333;
+}
+
+.categories {
+  margin: 20px 0;
+}
+
+.category-btn {
+  background-color: #07099a;
+  border: 2px solid #ccc;
+  padding: 10px 20px;
+  margin: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+
+.category-btn:hover {
+  background-color: #ddd;
+}
+
+.category-btn.active {
+  background-color: #09c110;
+  color: rgb(7, 160, 32);
+  border-color: #4caf50;
+}
+
+.feedback-box {
+  margin: 20px auto;
+  padding: 15px;
+  width: 200px;
+  background-color: #9d096e;
+  border: 2px solid #4caf50;
+  border-radius: 5px;
+  font-weight: bold;
+  color: #2e7d32;
+}
+
+.submit-btn {
+  background-color: #2196f3;
+  color: rgb(190, 17, 17);
+  border: none;
+  padding: 12px 25px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+
+.submit-btn:hover {
+  background-color: #1976d2;
+}
